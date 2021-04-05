@@ -1,0 +1,12 @@
+.nav-wrapper
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container
+{
+    margin: auto;
+    padding-top: 30px;
+    width: 100 px;
+}
