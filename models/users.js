@@ -8,7 +8,7 @@ const users = [
     {
         id: 2,
         name: 'Tumar Urodov',
-        email: 'tu@ma.ru',
+        email: 'tu@m.ru',
         passwordhash: ''
     }
 ]

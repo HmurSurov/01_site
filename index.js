@@ -21,6 +21,7 @@ app.use(session({
 }))
 
 const indexRouter = require('./routers/index')
+const authRouter = require('./routers/auth')
 
 app.engine('hbs', exphbs.express4({
     defaultLayout: path.resolve(__dirname, 'layouts', 'main.hbs'),
@@ -31,6 +32,7 @@ app.set('view engine', 'hbs')
 app.set('views', 'views')
 
 app.use('/', indexRouter)
+app.use('/auth/', authRouter)
 
 app.listen(PORT, () => {
     console.log('App has been started')
