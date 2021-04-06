@@ -6,10 +6,12 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-hbs": "^2.3.4",
-    "hbs": "^4.1.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.7"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
